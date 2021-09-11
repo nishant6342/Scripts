@@ -43,7 +43,7 @@ sudo install gdrive /usr/local/bin/gdrive
 rm gdrive
 echo -e "Done."
 
-if [[ $USER == "patriot" ]]; then
+echo -e "\nGit\n"
 git config --global user.name “Patriot-06”
 git config --global user.email “mbmc172@gmail.com”
 echo -e "Done."
