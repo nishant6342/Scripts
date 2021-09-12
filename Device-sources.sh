@@ -1,6 +1,10 @@
 #!/bin/bash
 #Script for syncing my Device source's
 
+# Go to home dir
+orig_dir=$(pwd)
+cd $HOME
+
 #Go to source dir
 cd bin/scripts/...!
 
