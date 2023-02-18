@@ -19,7 +19,7 @@ echo -e "Installing and updating packages...\n"
 sudo apt update
 sudo apt full-upgrade -y
 sudo add-apt-repository ppa:openjdk-r/ppa
-sudo apt install bc python3 python-is-python3 rclone bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev -y
+sudo apt install bc python3 python-is-python3 rclone default-jre bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev -y
 sudo apt-get install openjdk-8-jre -y
 echo -e "Done."
 
