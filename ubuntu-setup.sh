@@ -34,5 +34,5 @@ chmod a+x ~/bin/repo
 echo -e "\nGit\n"
 git config --global user.name “Nishant Kumar”
 git config --global user.email “www.rajsonu13@gmail.com”
-git config --global credential.helper cache
+git config --global credential.helper "cache --timeout=604800"
 echo -e "Done."
